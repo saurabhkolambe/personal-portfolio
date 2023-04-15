@@ -16,6 +16,19 @@ sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); }
 
 
 
+function openFullScreen(img) {
+  if (img.requestFullscreen) {
+    img.requestFullscreen();
+  } else if (img.mozRequestFullScreen) {
+    img.mozRequestFullScreen();
+  } else if (img.webkitRequestFullscreen) {
+    img.webkitRequestFullscreen();
+  } else if (img.msRequestFullscreen) {
+    img.msRequestFullscreen();
+  }
+}
+
+
 // testimonials variables
 const testimonialsItem = document.querySelectorAll("[data-testimonials-item]");
 const modalContainer = document.querySelector("[data-modal-container]");
