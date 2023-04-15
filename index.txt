@@ -2,23 +2,23 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Saurabh Kolambe
+Saurabh Kolambe
+Hardware Engineer
 
 Show Contacts
 
 Email
-richard@example.com
+saurabhkolambe@gmail.com
 
 Phone
-+1 (213) 352-2795
++91 7066446686
 
 Birthday
-June 23, 1982
+Feb 04, 1998
 
 Location
-Sacramento, California, USA
+Nashik, Maharashtra
 
 # navbar
 
